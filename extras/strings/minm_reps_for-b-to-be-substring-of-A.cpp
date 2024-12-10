@@ -69,6 +69,7 @@ int minRepeats(string &s1, string &s2)
     int minReps = (m + n - 1) / n;
     string text = s1;
 
+    // text=text*minReps;
     for (int i = 1; i < minReps; i++)
     {
         text += s1;
